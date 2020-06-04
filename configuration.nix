@@ -52,7 +52,7 @@
 
     windowManager.i3 = {
       enable = true;
-      configFile = "/etc/nixos/i3.conf";
+      configFile = ./i3.conf;
       extraPackages = with pkgs; [
         dmenu
         i3status
